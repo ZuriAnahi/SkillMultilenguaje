@@ -1,0 +1,61 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel",
+            "stop",
+            "exit"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop",
+            "end",
+            "terminate"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "hi",
+            "say hello",
+            "say hi",
+            "hello world"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "GetRandomFactIntent",
+          "samples": [
+            "Give me a random fact",
+            "Tell me something interesting",
+            "Give me an interesting fact",
+            "I want to know an interesting fact",
+            "Tell me a fun fact",
+            "Give me interesting information",
+            "I want to learn something new",
+            "Tell me more",
+            "Another fact",
+            "Surprise me with a fun fact"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "kdrama actors"
+    }
+  }
+}

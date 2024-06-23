@@ -1,0 +1,16 @@
+{
+  "name": "kdrama-actors-facts",
+  "version": "1.0.0",
+  "description": "Alexa skill that provides fun facts about K-drama actors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zuri Anahi",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ask-sdk-core": "^2.10.0",
+    "ask-sdk-model": "^1.24.0",
+    "aws-sdk": "^2.326.0"
+  }
+}

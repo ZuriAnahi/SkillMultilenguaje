@@ -1,0 +1,61 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancelar",
+            "para",
+            "salir"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "detener",
+            "parar",
+            "terminar"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "cómo estás",
+            "di hola",
+            "di hola mundo",
+            "hola mundo"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "GetRandomFactIntent",
+          "samples": [
+            "Dame un dato curioso",
+            "Cuéntame algo interesante",
+            "Dime un dato curioso",
+            "Quiero saber un hecho interesante",
+            "Cuéntame un dato curioso",
+            "Dame información interesante",
+            "Quiero aprender algo nuevo",
+            "Dime mas",
+            "Otro dato",
+            "Sorpréndeme con un dato curioso"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "actores kdramas"
+    }
+  }
+}
